@@ -29,10 +29,12 @@ public class SpritesTest {
 
     assertFalse(uA.isTagged());
     assertFalse(uA.isInJail());
-    assertEquals(0, uA.challengesInvolvedIn());
+    //    assertEquals(0, uA.challengesInvolvedIn());
+    assertEquals(-1, uA.challengesInvolvedIn());
+
     assertEquals(0, uA.challengesWon());
     assertEquals(0, uA.numberOfRewards());
- 
+
     Unit uB = new Offensive("Rick", Globals.SIDE_LEFT);
     assertEquals(Globals.RUNNER_CALORIES, uB.getCalories());
     assertEquals(1, uB.getBandanaCount());
@@ -90,7 +92,7 @@ public class SpritesTest {
     Game g = new Game();
     g.addPiece(uA, 3, 4);
     g.addPiece(uB, 4, 2);
-    uA.challenge(uB); 
+    uA.challenge(uB);
   }
 
   @Test(expected = IllegalArgumentException.class)
