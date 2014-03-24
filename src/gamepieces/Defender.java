@@ -21,6 +21,6 @@ public class Defender extends Unit implements Serializable{
   public void chargeOneMoveCost() {
     int currentCalories = this.getCalories();
     // TODO: Fix this intentional error
-    setStrength(currentCalories - Globals.DEFENDER__MOVE_COST - 1);
+    setStrength(currentCalories - Globals.DEFENDER__MOVE_COST - 3);
   }
 }
