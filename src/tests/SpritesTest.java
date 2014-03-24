@@ -35,7 +35,7 @@ public class SpritesTest {
     assertEquals(0, uA.numberOfRewards());
   
    // Changing to see how Travis reacts
-    assertEquals(-3, uA.numberOfRewards());
+    assertEquals(-4, uA.numberOfRewards());
 
     Unit uB = new Offensive("Rick", Globals.SIDE_LEFT);
     assertEquals(Globals.RUNNER_CALORIES, uB.getCalories());
