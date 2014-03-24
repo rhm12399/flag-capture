@@ -20,7 +20,6 @@ public class Defender extends Unit implements Serializable{
   @Override
   public void chargeOneMoveCost() {
     int currentCalories = this.getCalories();
-    // TODO Remove the -3, added to show what happens when the tests aren't run locally
-    setStrength(currentCalories - Globals.DEFENDER__MOVE_COST - 3);
+    setStrength(currentCalories - Globals.DEFENDER__MOVE_COST);
   }
 }
