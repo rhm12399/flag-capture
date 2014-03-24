@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="rick-mercers-macbook-pro.local" name="tests.SpritesTest" tests="26" time="0.073" timestamp="2014-03-24T13:29:19">
+<testsuite errors="0" failures="0" hostname="rick-mercers-macbook-pro.local" name="tests.SpritesTest" tests="26" time="0.077" timestamp="2014-03-24T13:55:31">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -52,7 +52,7 @@
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.SpritesTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/mercer/git/flag-capture/testreport/TEST-tests.SpritesTest.xml crashfile=/Users/mercer/git/flag-capture/junitvmwatcher5627983989775192636.properties propsfile=/Users/mercer/git/flag-capture/junit4872254121050201128.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.SpritesTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/mercer/git/flag-capture/testreport/TEST-tests.SpritesTest.xml crashfile=/Users/mercer/git/flag-capture/junitvmwatcher8085115004718808991.properties propsfile=/Users/mercer/git/flag-capture/junit4025448886817014768.properties" />
     <property name="java.class.path" value="/Users/mercer/git/flag-capture/lib/junit.jar:/Users/mercer/git/flag-capture/lib/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/mercer/git/flag-capture/bin:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-launcher.jar:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit.jar:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -76,29 +76,29 @@
     <property name="src.dir" value="/Users/mercer/git/flag-capture/src" />
     <property name="ant.project.invoked-targets" value="main" />
   </properties>
-  <testcase classname="tests.SpritesTest" name="testPositionThrowsExceptionRowsTooBig" time="0.002" />
+  <testcase classname="tests.SpritesTest" name="testPositionThrowsExceptionRowsTooBig" time="0.003" />
   <testcase classname="tests.SpritesTest" name="testGetAward" time="0.001" />
   <testcase classname="tests.SpritesTest" name="testPositionThrowsExceptionColumn" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testPositionThrowsException" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testIsTaggedWhenChallengerIsReversedTheReceiverThatIs" time="0.0" />
-  <testcase classname="tests.SpritesTest" name="testOneUnitGetsAnothersFlag" time="0.0" />
+  <testcase classname="tests.SpritesTest" name="testOneUnitGetsAnothersFlag" time="0.001" />
   <testcase classname="tests.SpritesTest" name="testChallengeCount" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testGetters" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testAwardGiven" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testPositionThrowsExceptionColumnsTooBig" time="0.0" />
-  <testcase classname="tests.SpritesTest" name="testChallenge2" time="0.0" />
-  <testcase classname="tests.SpritesTest" name="testChallengeTakesBandana" time="0.0" />
+  <testcase classname="tests.SpritesTest" name="testChallenge2" time="0.001" />
+  <testcase classname="tests.SpritesTest" name="testChallengeTakesBandana" time="0.001" />
   <testcase classname="tests.SpritesTest" name="testWinsRecordedInTheProfile" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testFightWhenThisCaloriesIsBetter" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testProfileIsUpdated" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testDifferentSides" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testIsTagged" time="0.0" />
-  <testcase classname="tests.SpritesTest" name="testDifferentSidesWithADifferentReceiver" time="0.0" />
+  <testcase classname="tests.SpritesTest" name="testDifferentSidesWithADifferentReceiver" time="0.001" />
   <testcase classname="tests.SpritesTest" name="testProfileUpdate" time="0.0" />
-  <testcase classname="tests.SpritesTest" name="testProfileGetsAllThreeAwards" time="0.001" />
+  <testcase classname="tests.SpritesTest" name="testProfileGetsAllThreeAwards" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testChallengesWonCount" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testPosition" time="0.0" />
-  <testcase classname="tests.SpritesTest" name="testFightWhenOthersCaloriesIsBetter" time="0.0" />
+  <testcase classname="tests.SpritesTest" name="testFightWhenOthersCaloriesIsBetter" time="0.001" />
   <testcase classname="tests.SpritesTest" name="testMutators" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testIfTagged" time="0.0" />
   <testcase classname="tests.SpritesTest" name="testChallenge" time="0.0" />
