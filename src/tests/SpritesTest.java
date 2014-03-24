@@ -29,11 +29,12 @@ public class SpritesTest {
 
     assertFalse(uA.isTagged());
     assertFalse(uA.isInJail());
-    //    assertEquals(0, uA.challengesInvolvedIn());
-    assertEquals(-2, uA.challengesInvolvedIn());
+    assertEquals(0, uA.challengesInvolvedIn());
 
     assertEquals(0, uA.challengesWon());
     assertEquals(0, uA.numberOfRewards());
+    // Changing to see how Travis reacts
+  //  assertEquals(-2, uA.numberOfRewards());
 
     Unit uB = new Offensive("Rick", Globals.SIDE_LEFT);
     assertEquals(Globals.RUNNER_CALORIES, uB.getCalories());
