@@ -17,7 +17,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-public class UnitTest {
+public class SpritesTest {
 
   @Test
   public void testGetters() {
