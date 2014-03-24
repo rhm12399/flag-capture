@@ -52,11 +52,12 @@
 		</junit>
 	</target>
 
-	<!-- Trying to get rid of the error on Travis -->
+	<!-- Added to get rid of the error on Travis -->
 	<target name="test" depends="compile, junit">
 		<description>Added to avoid Travis Error, at least I hope</description>
 	</target>
 
+	<!-- But I appear to need this for local builds -->
 	<target name="main" depends="compile, junit">
 		<description>Main target</description>
 	</target>
