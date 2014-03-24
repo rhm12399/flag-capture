@@ -30,7 +30,7 @@ public class SpritesTest {
     assertFalse(uA.isTagged());
     assertFalse(uA.isInJail());
     //    assertEquals(0, uA.challengesInvolvedIn());
-    assertEquals(-1, uA.challengesInvolvedIn());
+    assertEquals(-2, uA.challengesInvolvedIn());
 
     assertEquals(0, uA.challengesWon());
     assertEquals(0, uA.numberOfRewards());
