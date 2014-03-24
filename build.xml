@@ -3,10 +3,9 @@
 	<!-- Sets variables which can later be used. -->
 	<!-- The value of a property is accessed via ${} -->
 	<property name="src.dir" location="src" />
-
 	<property name="build.dir" location="bin" />
 
-	<!-- Variables used for JUnit testin -->
+	<!-- Variables used for JUnit testing -->
 	<property name="test.dir" location="src" />
 	<property name="test.report.dir" location="testreport" />
 
@@ -16,7 +15,6 @@
 		<pathelement location="lib/org.hamcrest.core_1.3.0.v201303031735.jar" />
 		<pathelement location="${build.dir}" />
 	</path>
-
 
 	<!-- Deletes the existing build, docs and dist directory-->
 	<target name="clean">
