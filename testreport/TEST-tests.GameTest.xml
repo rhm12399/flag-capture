@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="rick-mercers-macbook-pro.local" name="tests.GameTest" tests="4" time="0.213" timestamp="2014-03-24T13:29:18">
+<testsuite errors="0" failures="0" hostname="dhcp-10-134-189-137.uawifi.arizona.edu" name="tests.GameTest" tests="4" time="0.058" timestamp="2014-03-24T16:24:26">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -52,7 +52,7 @@
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.GameTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/mercer/git/flag-capture/testreport/TEST-tests.GameTest.xml crashfile=/Users/mercer/git/flag-capture/junitvmwatcher3516408805661523284.properties propsfile=/Users/mercer/git/flag-capture/junit2648366963952292826.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tests.GameTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/mercer/git/flag-capture/testreport/TEST-tests.GameTest.xml crashfile=/Users/mercer/git/flag-capture/junitvmwatcher1175856803154808126.properties propsfile=/Users/mercer/git/flag-capture/junit1773899682219025280.properties" />
     <property name="java.class.path" value="/Users/mercer/git/flag-capture/lib/junit.jar:/Users/mercer/git/flag-capture/lib/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/mercer/git/flag-capture/bin:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-launcher.jar:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit.jar:/Applications/eclipse 2/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -78,7 +78,7 @@
   </properties>
   <testcase classname="tests.GameTest" name="testGameSetupAndMakeOneChallenge" time="0.003" />
   <testcase classname="tests.GameTest" name="testUnitKnowPositionAfteSetAndMoveTo" time="0.0" />
-  <testcase classname="tests.GameTest" name="testGetPieceInChallenge" time="0.001" />
+  <testcase classname="tests.GameTest" name="testGetPieceInChallenge" time="0.0" />
   <testcase classname="tests.GameTest" name="testGetPieceInChallenge2" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
