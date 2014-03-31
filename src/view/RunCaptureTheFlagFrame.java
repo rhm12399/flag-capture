@@ -18,8 +18,7 @@ public class RunCaptureTheFlagFrame extends JFrame {
   public RunCaptureTheFlagFrame() {
     setSize(Globals.WIDTH + 100, Globals.HEIGHT + 100);
 //    setSize(Globals.WIDTH +30, Globals.HEIGHT + 5);
-    setLocation(16, 16);
-    setLocation(15, 15);
+    setLocation(160, 160);
     
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setTitle("Capture the Flag");
