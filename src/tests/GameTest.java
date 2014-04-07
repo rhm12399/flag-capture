@@ -1,6 +1,9 @@
 package tests;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 import game.Game;
 import game.Globals;
 import gamepieces.Defender;
@@ -8,8 +11,6 @@ import gamepieces.GamePiece;
 import gamepieces.JailBreaker;
 import gamepieces.Offensive;
 import gamepieces.Unit;
-
-import org.junit.Test;
 
 public class GameTest {
 

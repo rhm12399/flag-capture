@@ -1,8 +1,6 @@
 package tests;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import game.Game;
 import game.Globals;
@@ -33,9 +31,9 @@ public class SpritesTest {
 
     assertEquals(0, uA.challengesWon());
     assertEquals(0, uA.numberOfRewards());
-  
-   // Changing to see how Travis reacts
-   // assertEquals(-4, uA.numberOfRewards());
+
+    // Changing to see how Travis reacts
+    // assertEquals(-4, uA.numberOfRewards());
 
     Unit uB = new Offensive("Rick", Globals.SIDE_LEFT);
     assertEquals(Globals.RUNNER_CALORIES, uB.getCalories());
